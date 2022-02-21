@@ -1,0 +1,36 @@
+.event--card {
+  padding: 1rem;
+  color: #0f172a;
+  margin: 1rem;
+  width: 30rem;
+}
+
+.event--time {
+  font-size: 2rem;
+}
+
+.event--title {
+  font-size: 1.3rem;
+}
+
+.event--description {
+  font-size: 0.8rem;
+}
+
+.event--title {
+  font-size: 1.3rem;
+}
+
+.time--container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event--edit,
+.event--delete {
+  font-size: 1.3rem;
+  margin-left: 1rem;
+  display: inline-block;
+  border: 2px solid;
+}

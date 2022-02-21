@@ -1,0 +1,97 @@
+.edit--event--form {
+  padding: 2rem 4rem;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0f172a;
+  color: #cbd5e1;
+  border: 2px solid;
+}
+
+.edit--form--input--description {
+  background: #0f172a;
+  color: #cbd5e1;
+  border: 2px solid;
+}
+
+.edit--event--form > * {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.edit--event--form > input {
+  background: #0f172a;
+  color: #cbd5e1;
+  border: 2px solid;
+}
+
+.select--date {
+  background: #0f172a;
+  color: #cbd5e1;
+}
+
+.edit--form--btn--group {
+  /* width: 100%; */
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit--form--btn--group > * {
+  border-radius: 5px;
+  border: none;
+  padding: 0.3rem 1rem;
+  transition: transform 0.3s linear;
+}
+.edit--form--btn--create {
+  background-color: #6d28d9;
+  color: whitesmoke;
+}
+
+.edit--form--btn--create:active {
+  transform: scale(0.93);
+}
+
+.edit--form--btn--cancel {
+  background-color: #0f172a;
+  color: whitesmoke;
+  border: 1px solid;
+  opacity: 0.3;
+}
+
+.edit--form--btn--cancel:active {
+  transform: scale(0.93);
+}
+.edit--form--color--group--container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit--form--color--item {
+  height: 25px;
+  width: 25px;
+  border: 2px solid;
+  /* background-color: white; */
+}
+
+.edit--form--color--item--rose {
+  background-color: #fda4af;
+}
+
+.edit--form--color--item--blue {
+  background-color: #60a5fa;
+}
+
+.edit--form--color--item--yellow {
+  background-color: #fcd34d;
+}
+
+.edit--form--color--item--teal {
+  background-color: #5eead4;
+}

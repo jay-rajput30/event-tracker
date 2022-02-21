@@ -1,0 +1,17 @@
+.header--container {
+  border: 2px solid;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1rem;
+  background-color: #4c1d95;
+}
+
+.header--icon {
+  font-size: 2rem;
+}
+
+.header--title {
+  text-transform: capitalize;
+  font-size: 2rem;
+}

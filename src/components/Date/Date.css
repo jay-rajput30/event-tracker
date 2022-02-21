@@ -1,0 +1,17 @@
+.date--container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.date--item--container {
+  position: relative;
+  color: #94a3b8;
+  border: 1px solid;
+  text-align: end;
+  padding: 2.96rem 3rem;
+}
+.date--item {
+  position: absolute;
+  top: 4px;
+  right: 17px;
+  color: whitesmoke;
+}

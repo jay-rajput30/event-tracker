@@ -1,0 +1,6 @@
+.single--date--header--title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-align: center;
+  border: 2px solid;
+}
